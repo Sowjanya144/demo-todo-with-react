@@ -1,0 +1,8 @@
+resources:
+  - name-of-function-to-deploy:
+      type: "AWS::Lambda::Function"
+      properties:
+        name: cd-lambda
+        alias: cd-lambda
+        currentversion: $LATEST
+        targetversion: $LATEST
